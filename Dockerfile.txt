@@ -1,5 +1,0 @@
-#creating tomcat for docker
-FROM tomcat8-jre8
-
-#copy file from source to destination
-COPY /MavenWebApp.war /usr/local/tomcat/webapps
